@@ -1,0 +1,72 @@
+ 
+
+.result__list {
+    margin-top: 20px;
+  }
+  
+  .result__item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .result__item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .result__tag {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .result__tag--true {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .result__tag--flase {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .result__answer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .result__answer input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .result__item--selected label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .result__item--result label {
+    background-color: #cfe9cf;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .result__item--selected.result__item--result label {
+    background-color: #81c784;
+    color: #fff;
+  }
+
+  .result__item--selected{
+    color: red;
+  }
+
+  .result__item--result{
+    color: green;
+  }

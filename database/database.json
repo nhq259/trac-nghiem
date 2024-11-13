@@ -1,0 +1,829 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkp9VQydMBRmw670bqD7"
+    },
+    {
+      "id": "2",
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbbPf3fdjbQwh"
+    },
+    {
+      "id": "3",
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abvy7NJdWVGqGcGD9Lo"
+    },
+    {
+      "id": "4",
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "..."
+    },
+    {
+      "id": "5",
+      "fullName": "Tran Thi E",
+      "email": "tranthie@gmail.com",
+      "password": "tranthie",
+      "token": "abc123xyz"
+    },
+    {
+      "id": "6",
+      "fullName": "ng hong quna",
+      "email": "nguy222nthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "fgnSBOIS4yFKWJHR9wBg"
+    },
+    {
+      "id": "7",
+      "fullName": "hquang",
+      "email": "nhq269a@gmail.com",
+      "password": "123",
+      "token": "mIbzfT9iIr6l5sN0F19U"
+    },
+    {
+      "id": "0d18",
+      "fullName": "Quang",
+      "email": "nhq123@gmail.com",
+      "password": "123",
+      "token": "tDNKifOWEcgoRwFpxv6L"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "Javascript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    },
+    {
+      "id": "5",
+      "name": "NodeJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "HTML là viết tắt của...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 2,
+      "question": "CSS là viết tắt của...?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Coded Style System",
+        "Custom Styling Sheets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "4",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình...?",
+      "answers": [
+        "Không đồng bộ",
+        "Đồng bộ",
+        "Cả hai"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "HTML được phát minh bởi ai?",
+      "answers": [
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "6",
+      "topicId": 2,
+      "question": "CSS được sử dụng để làm gì?",
+      "answers": [
+        "Tạo cấu trúc trang web",
+        "Định dạng và bố trí các thành phần trang web",
+        "Tạo cơ sở dữ liệu cho trang web"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": 3,
+      "question": "JavaScript có thể chạy ở đâu?",
+      "answers": [
+        "Trình duyệt web",
+        "Máy chủ",
+        "Cả hai"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "8",
+      "topicId": 4,
+      "question": "React là một thư viện của ngôn ngữ lập trình nào?",
+      "answers": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "9",
+      "topicId": 4,
+      "question": "DOM là viết tắt của...? ",
+      "answers": [
+        "Document Object Model",
+        "Data Output Module",
+        "Dynamic Object Management"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "10",
+      "topicId": 1,
+      "question": "Thẻ nào là thẻ tiêu đề lớn nhất trong HTML?",
+      "answers": [
+        "<h1>",
+        "<header>",
+        "<h6>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "11",
+      "topicId": 2,
+      "question": "Để áp dụng một lớp CSS, chúng ta sử dụng ký tự nào?",
+      "answers": [
+        ".",
+        "#",
+        "*"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "12",
+      "topicId": 3,
+      "question": "JavaScript có phải là một ngôn ngữ lập trình hướng đối tượng không?",
+      "answers": [
+        "Có",
+        "Không"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "13",
+      "topicId": 3,
+      "question": "Sự kiện nào được kích hoạt khi người dùng nhấn nút trên trang web?",
+      "answers": [
+        "onClick",
+        "onSubmit",
+        "onLoad"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "14",
+      "topicId": 4,
+      "question": "Trong React, state được sử dụng để làm gì?",
+      "answers": [
+        "Lưu trữ và quản lý dữ liệu động",
+        "Tạo các component mới",
+        "Chia sẻ dữ liệu giữa các component"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "15",
+      "topicId": 4,
+      "question": "Hàm nào được sử dụng để cập nhật state trong React?",
+      "answers": [
+        "setState",
+        "updateState",
+        "changeState"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "16",
+      "topicId": 5,
+      "question": "RESTful API là gì?",
+      "answers": [
+        "Một kiến trúc phần mềm để xây dựng API",
+        "Một ngôn ngữ lập trình",
+        "Một giao thức truyền tải dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "17",
+      "topicId": 5,
+      "question": "Phương thức HTTP nào được sử dụng để cập nhật dữ liệu?",
+      "answers": [
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "18",
+      "topicId": 6,
+      "question": "Git là gì?",
+      "answers": [
+        "Một ngôn ngữ lập trình",
+        "Một công cụ quản lý mã nguồn",
+        "Một hệ điều hành"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicId": 6,
+      "question": "Lệnh nào được sử dụng để đẩy code lên remote repository trong Git?",
+      "answers": [
+        "git push",
+        "git pull",
+        "git commit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "20",
+      "topicId": 6,
+      "question": "Phương thức nào trong Git giúp hợp nhất các thay đổi từ một nhánh khác?",
+      "answers": [
+        "git merge",
+        "git checkout",
+        "git branch"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "userId": 2,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "userId": 3,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "userId": 4,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": "4"
+    },
+    {
+      "userId": 5,
+      "topicId": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": "5"
+    },
+    {
+      "id": "96f9",
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "be7a",
+      "userId": 0,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "8f1a",
+      "userId": 0,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ac4e",
+      "userId": 0,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
